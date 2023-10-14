@@ -1,0 +1,206 @@
+/* display and postition */
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.f-wrap{
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.p-relative{
+    position: relative;
+}
+.w-full{
+    width: 100%;
+}
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+.w-fit{
+    width: fit-content;
+}
+.border{
+    border-bottom: 1px solid #eee;
+}
+.d-grid{
+    display: grid;
+}
+.gap-20{
+    gap: 20px;
+}
+/* padding */
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+/* margin */
+.m-20{
+    margin: 20px;
+}
+.m-0{
+    margin: 0;
+}
+.m-t{
+    margin-top:0 ;
+}
+.mr-10{
+    margin-right: 10px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+.mt-5{
+  
+    margin-top: 5px;
+}
+.mb-15{
+
+margin-bottom: 15px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.h-full{
+    height: 100%;
+}
+/* color */
+.bg-eee{
+    background-color: #eee;
+}
+.c-black{
+    color: black;
+}
+.c-white{
+    color: white;
+}
+.c-green{
+    color: #22c55e;
+}
+.c-orange{
+    color: #f59e0b;
+}
+.c-blue{
+    color: #0075ff;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-blue{
+    background-color: #0075ff;
+}
+.c-grey{
+    color: var(--grey-color);
+}
+
+/* text */
+.text-center{
+    text-align: center;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+
+/* mobile */
+@media (max-width:767px) {
+    .hide-mobile{
+        display: none;
+    }
+    .text-center-mobile{
+        text-align: center;
+    }
+    .block-mobile{
+        display: block;
+    }
+
+
+    
+}
+.border-eee{
+    border: 2px solid #eee;
+}
+
+.between-felx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.b-none{
+    border: none;
+}
+
+/* componant */
+.btn-shape{
+    padding: 4px 10px ;
+    border-radius:6px ;
+    cursor: pointer;
+}
+.btn-shape:hover{
+    background-color: var(--blue-alt-color);
+}
+.center-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
